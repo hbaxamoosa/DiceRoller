@@ -1,9 +1,9 @@
 package com.boxofm.diceroller
 
-import android.databinding.DataBindingUtil
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
