@@ -1,7 +1,6 @@
 package com.boxofm.diceroller
 
 import android.os.Bundle
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import java.util.*
@@ -9,7 +8,6 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: com.boxofm.diceroller.databinding.ActivityMainBinding
-    private lateinit var diceImage: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
